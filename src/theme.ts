@@ -22,7 +22,7 @@ let theme = createTheme({
     },
   },
   typography: {
-    fontFamily: ['Roboto', 'sans-serif'].join(','),
+    fontFamily: ['Montserrat', 'sans-serif'].join(','),
   },
   //status: {
   //    danger: 'orange',
