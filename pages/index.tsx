@@ -1,18 +1,18 @@
 import type { NextPage } from 'next';
 import React from 'react';
 import { GetStaticPropsResult } from 'next';
-import Header from '../components/heading'
-import Boxbox from '../components/boxbox'
-import Box from '../components/box'
+import Header from '../src/components/header';
+import BasicGrid from '../src/components/page';
 interface Props {}
 
-const Home: NextPage<Props> = ({}) => <main>
-    <header>
-      <Header/>
-    </header>
-      <Boxbox/>
-      <Box/>
-</main>;
+const Home: NextPage<Props> = ({}) => (
+  <main>
+      <header>
+        <Header />
+      </header>
+      <BasicGrid />
+  </main>
+);
 
 export async function getStaticProps(): Promise<GetStaticPropsResult<Props>> {
   return { props: {} };

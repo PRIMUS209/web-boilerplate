@@ -21,9 +21,7 @@ let theme = createTheme({
       default: '#101724',
     },
   },
-  typography: {
-    fontFamily: ['Montserrat', 'sans-serif'].join(','),
-  },
+
   //status: {
   //    danger: 'orange',
   //},
